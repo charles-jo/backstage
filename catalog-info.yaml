@@ -3,10 +3,10 @@ kind: Component
 metadata:
   name: "my-demo-app"
   annotations:
-    github.com/project-slug: charles-jo/my-demo-app
+    github.com/project-slug: charles-jo/backstage
 spec:
   type: service
-  owner: user:default/guest
+  owner: user:default/charles-jo
   lifecycle: experimental
   dependsOn: 
     - "resource:my-demo-app-ec2"
